@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.13"
+  },
+  "volta": {
+    "node": "16.18.1"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.38.2",
+    "sass": "^1.56.1",
+    "unplugin-auto-import": "^0.11.4",
+    "unplugin-vue-components": "^0.22.9"
+  }
+}
